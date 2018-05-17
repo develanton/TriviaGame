@@ -26,14 +26,15 @@
             <br>
             <div class="button is-large is-dark" id="starter">Get Started!</div>
         </div>
-
     </section>
-    <section class="section"   id="trivia" style="display: none;">
+
+    <section class="section" id="trivia" style="display: none;">
         <div class="container box">
             <h1 class="title level-item">
                 JavaScript Test!
             </h1>
             <br>
+            <h1 class="title level-item">00:00</h1>
             <br>
             <div class="container">
                 <p class="subtitle level-item">
@@ -41,16 +42,16 @@
                     <strong>Bulma</strong>!
                     <div class="control level-item">
                         <label class="radio">
-                            <input type="radio" name="rsvp"> Going
+                            <input type="radio" name="wrong" value="1"> Going
                         </label>
                         <label class="radio">
-                            <input type="radio" name="rsvp"> Not going
+                            <input type="radio" name="correct" value="1"> Not going
                         </label>
                         <label class="radio">
-                            <input type="radio" name="rsvp"> Maybe
+                            <input type="radio" name="wrong" value="1"> Maybe
                         </label>
                         <label class="radio">
-                            <input type="radio" name="rsvp"> Maybe
+                            <input type="radio" name="wrong" value="1"> Maybe
                         </label>
                     </div>
                 </p>
@@ -68,7 +69,7 @@
                             <input type="radio" name="rsvp"> Not going
                         </label>
                         <label class="radio">
-                            <input type="radio" name="rsvp"> Maybe
+                            <input type="radio" name="correct"> Maybe
                         </label>
                         <label class="radio">
                             <input type="radio" name="rsvp"> Maybe
@@ -121,10 +122,28 @@
                 <br>
                 <br>
             </div>
-
         </div>
-
     </section>
+
+    <section class="section" id="bottomsec" style="display: none;" >
+            <div class="container box" id="front-box">
+                <h1 class="title level-item">
+                    JavaScript Test!
+                </h1>
+                <h1 class="title level-item" id="referenceb">Test Result!</h1>
+                <br>
+                <br>
+                <h1 class="title level-item">
+                    Correct Answers: &nbsp; <span> 0</span>
+                </h1>
+                
+                <h1 class="title level-item">
+                    Wrong Answers: &nbsp; <span> 0</span>
+                </h1>
+                <div class="button is-large is-dark" id="starter" style="margin-top: 5%;">Try Again!</div>
+            </div>
+    
+        </section>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </body>
